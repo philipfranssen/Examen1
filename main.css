@@ -97,6 +97,23 @@ font {
   padding-bottom: 3rem;
 }
 
+.date {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f4f4f4;
+}
+
+.month.purple {
+  background-color: #45489a;
+  color: white;
+}
+
+.month {
+  padding: 2rem 1rem;
+  width: 100%;
+  text-align: center;
+}
+
 .continue-button {
   background-color: #45489a;
   padding: 1rem;
@@ -110,8 +127,13 @@ font {
 
 .blog {
   margin-bottom: 1rem;
-  border-bottom: solid 0.1rem #f4f4f4;
   padding: 1rem 1.5rem;
+}
+
+.text {
+  border-bottom: solid 0.1rem #7a7a7a;
+  padding-bottom: 1rem;
+
 }
 
 .blog-1 {
@@ -119,6 +141,8 @@ font {
   
 }
 
-.inner-3 {  
+.gray {  
   background-color: #f4f4f4;
 }
+
+
