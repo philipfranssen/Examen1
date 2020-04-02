@@ -1,4 +1,32 @@
-body {
-  font-family: 'Open Sans', sans-serif;
+html { 
+  height: 100%;
 }
 
+* { box-sizing: border-box;}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #7a7a7a;
+  height: 100%;
+  margin: 0rem;
+  line-height: 1.5rem;
+  }
+
+.u-md-header,
+.header-nav {
+  display: none;
+}
+
+.Header {
+  background-image: url(img/slide_1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50rem;
+}
+
+.u-sm-Header {
+  color: white;
+  text-align: center;
+  
+}
