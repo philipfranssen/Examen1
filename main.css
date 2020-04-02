@@ -57,3 +57,38 @@ font {
 .container h1,h2,h3,h5,h6 {
   color: black;
 }
+
+.align-center {
+  text-align: center;
+}
+
+.inner-container {
+  width: 100%;
+}
+
+.inner-1,
+.inner-2,
+.inner-3 {
+  width: 90%;
+  margin: auto;
+}
+
+.inner-1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.div {
+  width: calc((100% - 1.5rem) / 2);
+}
+
+.img-div {
+  width: 100%;
+}
+
+.center {
+  align-items: center;
+  width: 100%;
+}
+
