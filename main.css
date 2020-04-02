@@ -34,14 +34,13 @@ body {
   text-align: center;
 }
 
-.button {
+.discover-button {
   background-color: white;
-  color: #45489a;
   padding: 1rem;
   width: 9rem;
 }
 
-.button a {
+.discover-button a {
   text-decoration: none;
   color: #45489a;
 }
@@ -79,11 +78,11 @@ font {
   justify-content: space-between;
 }
 
-.div {
+.featured {
   width: calc((100% - 1.5rem) / 2);
 }
 
-.img-div {
+.img {
   width: 100%;
 }
 
@@ -92,3 +91,34 @@ font {
   width: 100%;
 }
 
+.border {
+  border-bottom: solid 0.1rem #f4f4f4;
+  margin-bottom: 3rem;
+  padding-bottom: 3rem;
+}
+
+.continue-button {
+  background-color: #45489a;
+  padding: 1rem;
+  width: 10rem;
+}
+
+.continue-button a {
+  color: white;
+  text-decoration: none;
+}
+
+.blog {
+  margin-bottom: 1rem;
+  border-bottom: solid 0.1rem #f4f4f4;
+  padding: 1rem 1.5rem;
+}
+
+.blog-1 {
+  border-top: solid 0.5rem #45489a ;
+  
+}
+
+.inner-3 {  
+  background-color: #f4f4f4;
+}
