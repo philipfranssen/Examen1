@@ -10,7 +10,7 @@ body {
   color: #7a7a7a;
   height: 100%;
   margin: 0rem;
-  line-height: 1.5rem;
+  line-height: 1rem;
   }
 
 .u-md-header,
@@ -20,13 +20,24 @@ body {
 
 .Header {
   background-image: url(img/slide_1.jpg);
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   height: 50rem;
 }
 
 .u-sm-Header {
+  height: 100%;
   color: white;
-  text-align: center;
-  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+.button {
+  background-color: white;
+  color: #45489a;
+  padding: 1rem;
+  width: 9rem;
+}
+
