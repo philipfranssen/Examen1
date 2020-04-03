@@ -276,8 +276,20 @@ p {
   font-size: 0.8rem;
 }
 
+.discover-button:hover {
+  background-color: #45489a;
+}
+
+.discover-button:hover a {
+  color: white;
+}
+
 .contact-button:hover {
   background-color: #f4f4f4;
+  color: #232323;
+}
+
+.contact-button:hover a {
   color: #232323;
 }
 
@@ -286,15 +298,13 @@ p {
   color: #45489a;
 }
 
-.round:hover {
-  background-color: white;
+.continue-button:hover a {
+  color: #45489a;
 }
 
-/* .contact-button a:hover {
-  color: #232323;
-} */
-
-
+.nav-item:hover .round {
+  background-color: white;
+}
 
 
 @media screen and (min-width: 521px) {
@@ -474,8 +484,8 @@ p {
   }
 
   .nav-item {
-    display: flex;
     margin-bottom: 2rem;
+    display: flex;
     align-items: center;
   }
 
@@ -484,12 +494,16 @@ p {
     width: 0.7rem;
     border: solid 0.1rem white;
     border-radius: 50%;
+    /* display: flex; */
+    /* align-items: center; */
   }
 
   .nav-item p {
     margin: 0rem;
-    padding-left: 0.5rem;
+    padding-left: 1rem;
     font-size: 0.8rem;
+    display: block;
+    width: 10rem;
   }
 
 
