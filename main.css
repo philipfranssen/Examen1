@@ -22,7 +22,7 @@ body {
   background-position: top;
   background-repeat: no-repeat;
   height: 46rem;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
 }
 
 .u-sm-Header {
@@ -69,6 +69,17 @@ h2 {
   font-size: 2rem;
 }
 
+h3 {
+  color: #232323;
+  font-size: 1.4rem;
+  margin: 1rem 0rem 0.3rem;
+}
+
+h4 {
+  margin: 0rem 0rem 1rem;
+  opacity: 0.8;
+}
+
 .container h3,h5,h6 {
   color: #232323;
 }
@@ -77,15 +88,36 @@ h2 {
   text-align: center;
 }
 
+.center {
+  align-items: center;
+  width: 100%;
+  margin: 0rem 0rem 0.5rem;
+  line-height: 2rem;
+}
+
+p.align-center {
+  margin-bottom: 4rem;
+  padding: 0rem 1rem;
+  font-weight: 550;
+  color: #232323;
+  opacity: 0.8;
+}
+
+p {
+  opacity: 0.8;
+}
+
 .inner-container {
   width: 100%;
+  margin-bottom: 5rem;
+  padding-bottom: 4rem;
 }
 
 .inner-1,
 .inner-2,
 .inner-3,
 .inner-4 {
-  width: 90%;
+  width: 95%;
   margin: auto;
 }
 
@@ -96,22 +128,23 @@ h2 {
 }
 
 .featured {
-  width: calc((100% - 1.5rem) / 2);
+  width: calc((100% - 1rem) / 2);
+}
+
+.featured > p {
+  margin-bottom: 1rem;
 }
 
 .img {
   width: 100%;
 }
 
-.center {
-  align-items: center;
-  width: 100%;
+.img-portfolio {
+  margin-bottom: 1rem;
 }
 
 .border {
   border-bottom: solid 0.1rem #f4f4f4;
-  margin-bottom: 3rem;
-  padding-bottom: 3rem;
 }
 
 .date {
@@ -129,9 +162,12 @@ h2 {
   padding: 2rem 1rem;
   width: 100%;
   text-align: center;
+  font-size: 0.8rem;
+  font-weight: 650;
+  color: #232323;
 }
 
-.continue-button {
+.text > .continue-button {
   background-color: #45489a;
   padding: 1rem;
   width: 10rem;
@@ -144,7 +180,7 @@ h2 {
 
 .blog {
   margin-bottom: 1rem;
-  padding: 1rem 1.5rem;
+  padding: 1.1rem 1.6rem;
 }
 
 .text-border {
