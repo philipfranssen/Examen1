@@ -45,6 +45,10 @@ body {
   width: 9rem;
 }
 
+a {
+  font-size: 0.8rem;
+}
+
 .discover-button a {
   text-decoration: none;
   color: #45489a;
@@ -173,6 +177,7 @@ p {
   background-color: #45489a;
   padding: 1rem;
   width: 10rem;
+  text-align: center;
 }
 
 .continue-button a {
@@ -208,12 +213,12 @@ p {
   border: solid 0.05rem lightgray;
   margin-bottom: 1.5rem;
   background-color: #f4f4f4;
-  font-weight: lighter;
-  opacity: 0.7;
 }
 
 .contact::placeholder {
-  opacity: 0.8;
+  color: #232323;
+  opacity: 0.4;
+  font-weight: bolder;
 }
 
 .contact-sm {
@@ -232,7 +237,7 @@ p {
 
 .contact-button {
   background-color: #45489a;
-  padding: 0.5rem 0rem;
+  padding: 0.9rem 0rem;
   text-align: center;
 }
 
@@ -242,7 +247,8 @@ p {
 }
 
 .inner-4 {
-  margin-bottom: 4rem;
+  margin-bottom: -4rem;
+
 }
 
 .succes {
@@ -256,4 +262,62 @@ p {
   color: white;
   font-weight: lighter;
   opacity: 0.8;
+  font-size: 0.8rem;
+}
+
+
+@media screen and (min-width: 521px) {
+
+  .Header {
+    display: flex;
+    position: relative;
+  }
+
+  .u-sm-Header {
+    position: absolute;
+    right: 4rem;
+    align-items: flex-end;
+  }
+
+  .u-sm-Header h1,p {
+    text-align: right;
+  }
+
+  .u-md-header {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 23%;
+  }
+
+  .header-img {
+    height: 20%;
+    background-color: #45489a;
+  }
+
+  .header-nav {
+      display: flex;
+      background-color: #232323;
+      opacity: 0.9;
+      height: 100%;
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+  }
+
+  .nav-item {
+    display: flex;
+  }
+
+  .round {
+    height: 0.7rem;
+    width: 0.7rem;
+    border: solid 0.1rem white;
+    border-radius: 50%;
+  }
+
+
 }
