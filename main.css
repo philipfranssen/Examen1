@@ -377,4 +377,36 @@ p {
 
   }
 
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 220px 313px;
+    grid-gap: 1rem / 1rem;
+    grid-template-areas: 
+    "img-portfolio-1 img-portfolio-1 img-portfolio-1"
+    "img-portfolio-2 img-portfolio-3 img-portfolio-4"
+    "img-portfolio-5 img-portfolio-5 img-portfolio-5"
+    ;
+  }
+
+
+  .img-portfolio-1 {
+    grid-area: img-portfolio-1;
+  }
+  
+  .img-portfolio-2 {
+    grid-area: img-portfolio-2;
+  }
+
+  .img-portfolio-3 {
+    grid-area: img-portfolio-3;
+  }
+
+  .img-portfolio-4 {
+    grid-area: img-portfolio-4;
+  }
+
+  .img-portfolio-5 {
+    grid-area: img-portfolio-5;
+  }
 }
