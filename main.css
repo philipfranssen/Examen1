@@ -73,6 +73,7 @@ h3 {
   color: #232323;
   font-size: 1.4rem;
   margin: 1rem 0rem 0.3rem;
+  font-weight: 550;
 }
 
 h4 {
@@ -86,9 +87,10 @@ h4 {
 
 .align-center {
   text-align: center;
+  line-height: 1.5rem;
 }
 
-.center {
+.align-center.center {
   align-items: center;
   width: 100%;
   margin: 0rem 0rem 0.5rem;
@@ -179,20 +181,24 @@ p {
 }
 
 .blog {
-  margin-bottom: 1rem;
-  padding: 1.1rem 1.6rem;
-}
-
-.text-border {
-  border-bottom: solid 0.1rem #7a7a7a;
-  padding-bottom: 1rem;
-
+  padding: 0.8rem 1.6rem;
 }
 
 .blog-1 {
-  border-top: solid 0.5rem #45489a ;
+  border-top: solid 0.7rem #45489a ;
   
 }
+
+.img-blog-2,
+.img-blog-3 {
+  border-top: solid 0.1rem lightgray;
+  padding-top: 0.8rem;
+}
+
+.blog-3 {
+  padding-bottom: 2rem;
+}
+
 
 .gray {  
   background-color: #f4f4f4;
@@ -200,13 +206,18 @@ p {
 
 .contact {
   border: solid 0.05rem lightgray;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
   background-color: #f4f4f4;
   font-weight: lighter;
   opacity: 0.7;
 }
+
+.contact::placeholder {
+  opacity: 0.8;
+}
+
 .contact-sm {
-  padding: 1rem;
+  padding: 0.9rem;
 }
 
 .contact-lg {
