@@ -254,6 +254,7 @@ p {
 .contact-button a {
   color: white;
   text-decoration: none;
+  width: 100%;
 }
 
 .inner-4 {
@@ -275,6 +276,23 @@ p {
   font-size: 0.8rem;
 }
 
+.contact-button:hover {
+  background-color: #f4f4f4;
+  color: #232323;
+}
+
+.continue-button:hover {
+  background-color: white;
+  color: #45489a;
+}
+
+.round:hover {
+  background-color: white;
+}
+
+/* .contact-button a:hover {
+  color: #232323;
+} */
 
 
 
