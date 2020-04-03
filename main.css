@@ -289,15 +289,39 @@ p {
     align-items: flex-end;
   }
 
-  .u-sm-Header h1,p {
+  .right {
     text-align: right;
   }
+
+.u-sm-Header h1 {
+  font-size: 3rem;
+  text-align: right;
+}
 
   .u-md-header {
     display: flex;
     flex-direction: column;
     color: white;
     width: 23%;
+  }
+
+  .lightest {
+    font-weight: 100;
+    opacity: 0.8;
+  }
+
+  .border-header-img {
+    border: solid 0.05rem lightgray;
+    margin: 1.2rem;
+  }
+
+  p.position-header-img {
+    font-size: 1.2rem;
+    font-weight: bold;
+    opacity: 1;
+    margin: 0rem;
+    text-align: center;
+    padding: 2.5rem 2rem;
   }
 
   .header-img {
@@ -337,12 +361,6 @@ p {
     font-size: 0.8rem;
   }
 
-  .border-header-img {
-    border: solid 0.05rem lightgray;
-    padding: 2rem;
-    margin: 1rem;
-  }
-
   .inner-1,
   .inner-2,
   .inner-3,
@@ -369,6 +387,8 @@ p {
 
   p.align-center {
     margin: 0rem;
+    padding-left: 3rem;
+    padding-right: 0rem;
   }
 
   .flex-md-featured {
@@ -433,16 +453,7 @@ p {
 }
 
 .text {
-  text-align: left;
   padding-left: 2rem;
-}
-
-.text p {
-  text-align: left;
-}
-
-.succes p {
-  text-align: center;
 }
 
 }
