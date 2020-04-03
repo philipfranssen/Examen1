@@ -165,6 +165,8 @@ p {
   display: flex;
   justify-content: space-around;
   background-color: #f4f4f4;
+  border-bottom: solid 0.9rem #45489a ;
+  margin-bottom: -1rem;
 }
 
 .month.purple {
@@ -194,11 +196,11 @@ p {
 }
 
 .blog {
-  padding: 0.8rem 1.6rem;
+  margin: 0.8rem 1.6rem 1.5rem;
 }
 
 .blog-1 {
-  border-top: solid 0.7rem #45489a ;
+    padding-top: 1rem;
   
 }
 
@@ -278,6 +280,116 @@ p {
 
 
 @media screen and (min-width: 521px) {
+
+  
+
+  .inner-1,
+  .inner-2,
+  .inner-3,
+  .inner-4 {
+  width: 85%;
+  margin: auto;
+}
+
+  .inner-1 {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+
+  .featured {
+    width: calc((100% - 4rem) / 4);
+  }
+
+  .flex-md-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+
+  p.align-center {
+    margin: 0rem;
+    padding-left: 3rem;
+    padding-right: 0rem;
+  }
+
+  .flex-md-featured {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .align-center {
+    text-align: left;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 220px 313px;
+    grid-column-gap: 1rem;
+    grid-row-gap: 1rem;
+    grid-template-areas: 
+    "img-portfolio-1 img-portfolio-1 img-portfolio-1"
+    "img-portfolio-2 img-portfolio-3 img-portfolio-4"
+    "img-portfolio-5 img-portfolio-5 img-portfolio-5"
+    ;
+  }
+
+  .img-portfolio {
+    margin-bottom: 0rem;
+  }
+
+  .img-portfolio-1 {
+    grid-area: img-portfolio-1;
+  }
+  
+  .img-portfolio-2 {
+    grid-area: img-portfolio-2;
+    height: 100%;
+  }
+
+  .img-portfolio-3 {
+    grid-area: img-portfolio-3;
+    height: 100%;
+  }
+
+  .img-portfolio-4 {
+    grid-area: img-portfolio-4;
+    height: 100%;
+  }
+
+  .img-portfolio-5 {
+    grid-area: img-portfolio-5;
+  }
+
+
+.img-blog-2,
+.img-blog-3,
+.img-blog-1 {
+  border-top: none;
+  width: calc((100% - 2rem) / 2);
+  height: 285px;
+  
+}
+
+.text {
+  padding-left: 2rem;
+}
+
+.blog {
+  display: flex;
+}
+
+.blog-2,
+.blog-3 {
+  padding-top: 1rem;
+  border-top: solid 0.1rem lightgray;
+}
+
+
+}
+
+@media screen and (min-width: 731px) {
 
   .Header {
     display: flex;
@@ -362,116 +474,12 @@ p {
     font-size: 0.8rem;
   }
 
-  .inner-1,
-  .inner-2,
-  .inner-3,
-  .inner-4 {
-  width: 85%;
-  margin: auto;
-}
-
-  .inner-1 {
-    flex-direction: column;
-    flex-wrap: nowrap;
-  }
-
-  .featured {
-    width: calc((100% - 4rem) / 4);
-  }
-
-  .flex-md-text {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    margin-bottom: 3rem;
-  }
-
-  p.align-center {
-    margin: 0rem;
-    padding-left: 3rem;
-    padding-right: 0rem;
-  }
-
-  .flex-md-featured {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .align-center {
-    text-align: left;
-  }
-  
-  .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 220px 313px;
-    grid-column-gap: 1rem;
-    grid-row-gap: 1rem;
-    grid-template-areas: 
-    "img-portfolio-1 img-portfolio-1 img-portfolio-1"
-    "img-portfolio-2 img-portfolio-3 img-portfolio-4"
-    "img-portfolio-5 img-portfolio-5 img-portfolio-5"
-    ;
-  }
-
-  .img-portfolio {
-    margin-bottom: 0rem;
-  }
-
-  .img-portfolio-1 {
-    grid-area: img-portfolio-1;
-  }
-  
-  .img-portfolio-2 {
-    grid-area: img-portfolio-2;
-    height: 100%;
-  }
-
-  .img-portfolio-3 {
-    grid-area: img-portfolio-3;
-    height: 100%;
-  }
-
-  .img-portfolio-4 {
-    grid-area: img-portfolio-4;
-    height: 100%;
-  }
-
-  .img-portfolio-5 {
-    grid-area: img-portfolio-5;
-  }
-
-  
-/* .text-border {
-  border-top: solid 0.1rem lightgray;
-} */
-
-.img-blog-2,
-.img-blog-3,
-.img-blog-1 {
-  border-top: none;
-  padding-top: 0rem;
-  width: 380px;
-  height: 285px;
-}
-
-.text {
-  padding-left: 2rem;
-}
-
-.blog {
-  display: flex;
-  justify-content: space-between;
-}
-
-.img-blog-1,
-.img-blog-2,
-.img-blog-3 {
-  width: calc((100% - 2rem) / 2);
-}
 
 
 }
+
+
+
 
 @media screen and (min-width: 991px) {
   .grid {
@@ -523,4 +531,16 @@ p {
   height: 285px;
 }
 
+}
+
+@media screen and (min-width: 991px) {
+  .div-contact-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .contact-flex {
+    width: calc((100% - 4rem) / 3);
+  }
 }
